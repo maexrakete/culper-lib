@@ -2,6 +2,8 @@
 name = "culper-lib"
 version = "0.1.0"
 authors = ["Mäx <max.kiehnscherf@gmail.com>"]
+description = "library of common code for culper & culper-server"
+license = "GPL-3.0-or-later"
 edition = "2018"
 
 [dependencies]

@@ -9,5 +9,7 @@ services:
   - docker
 
 script:
+  - sudo chmod -R 777 .
   - docker run --rm -it -v "$(pwd)":/home/rust/src mietzekotze/culper-builder cargo test
   - docker run --rm -it -v "$(pwd)":/home/rust/src mietzekotze/culper-builder cargo build --verbose
+  - sudo chmod -R 777 .
